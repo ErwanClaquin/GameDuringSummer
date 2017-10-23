@@ -3,7 +3,7 @@ from Joueur import *
 def initPartie(couleur1,couleur2):
     joueur1 = joueur(couleur1,"papou", True)
     joueur2 = joueur(couleur2,"erwan", False)
-    return joueur1,joueur2
+    return joueur1, joueur2
 
 
 def init1UniteJoueur(joueur):
@@ -18,7 +18,7 @@ def init2UniteJoueur(joueur):
     joueur.addUnite(soldatString, 19, 9, joueur)
 
 
-def initieTour(joueur1, joueur2,liste):
+def initieTour(joueur1, joueur2, liste):
     listeTemporaire = []
     for element in joueur1.armee + joueur2.armee:
         listeTemporaire.append(element)

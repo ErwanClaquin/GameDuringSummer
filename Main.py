@@ -13,7 +13,7 @@ init1UniteJoueur(joueur1)
 init2UniteJoueur(joueur2)
 listeTourUnite = []
 initieTour(joueur1, joueur2, listeTourUnite)
-
+pygame.mouse.set_visible(True)
 
 #todo on rentre en combat
 ecranDeCombat = EcranCombat(joueur1, joueur2,listeTourUnite)
